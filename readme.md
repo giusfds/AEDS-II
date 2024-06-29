@@ -12,7 +12,7 @@ Ola  a todos que vao fazer aeds2 semestre que vem, ou que se interessaram por es
 
 1. **Estude a teoria**: A teoria é muito importante, e é o que vai te fazer passar na prova. A maioria das questões são sobre conceitos, e não sobre implementação. Então, estude bem a teoria, e faça muitos exercícios.
 
-2. **Faça os exercícios**: Os exercícios são muito importantes, e vão te ajudar a fixar a teoria. Faça todos os exercícios que você puder, e se tiver dúvidas, pergunte ao professor, o MAX nao morde, e o Felipe julga.
+2. **Faça os exercícios**: Os exercícios são muito importantes, e vão te ajudar a fixar a teoria. Faça todos os exercícios que você puder, e se tiver dúvidas, pergunte ao professor, nem o Max nem o Felipe vao te deixar na mao, eles vao te ajudar a entender o que voce nao entendeu.
 
 3. **Não deixe para a última hora**: A matéria é extensa, e é muito difícil de aprender tudo de uma vez, principalmente na prova 2/3, elas sim sao as mais complicadas. Então, não deixe para estudar na véspera da prova, porque você não vai conseguir aprender tudo.
 
