@@ -30,7 +30,7 @@ Ola  a todos que vao fazer aeds2 semestre que vem, ou que se interessaram por es
 6. **Não desista**: A matéria é difícil, e é normal ter dificuldades. Mas não desista, e continue estudando e fazendo os exercícios, que você vai conseguir passar.
 
 7. **Seja organizado**: A matéria é extensa, e é muito fácil se perder. Então, seja organizado, ou faca igual eu, crie uma pasta no meio do semestre para postar o que o MAX fala na aula... Tudo bem que eu abandonei a ideia, ja que eu comeicei a fazer no caderno, pq precisava de nota, e as provas sao no papel.
-[Link do pasta](https://github.com/giusfds/Aulas-de-AEDS-II)
+[Link do pasta](https://github.com/giusfds/AEDS-II/tree/main/Aulas)
 
 8. **Não tenha medo de perguntar**: Se você tiver dúvidas, pergunte ao professor. Não tenha medo de perguntar, porque é melhor perguntar do que ficar com dúvidas. A gnt brinca e tals, mas o max e um pai, o felipe tbm, porem as veze eles vao pegar MUITO no seu pe pela pergunta, porem eles sempre exclarecem ela. Mostre que voce quer passar.
 

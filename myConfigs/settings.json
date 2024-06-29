@@ -1,6 +1,124 @@
 {
-    "files.associations": {
-        "Q01E04.c": "c"
+    // tamanho da tela
+    "window.zoomLevel": 1.1,
+  
+    // prittier
+    "editor.formatOnSave": true,
+  
+    // configurar as linguagens de progracamao que eu uso
+    "[Java]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "C_Cpp.errorSquiggles": "disabled"
-}
+    "[cpp]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[c]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+  
+    // caminho da pasta
+    "breadcrumbs.enabled": false,
+  
+    // tirar os espacoes em branco desnecesarios do codigo
+    "editor.renderWhitespace": "none",
+  
+    // hot bar
+    "workbench.statusBar.visible": true,
+  
+    // fontes
+    // "chat.editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+  
+    // barra de acoes latera
+    "workbench.sideBar.location": "right",
+  
+    // editor de tab
+    "editor.tabSize": 2,
+  
+    // longas linhas de codigo
+    "diffEditor.wordWrap": "on",
+  
+    // remover linha de onde vc ta a barra de rolamento
+    "editor.hideCursorInOverviewRuler": true,
+  
+    // remover o espaco da barra de rolamento
+  
+    // cursor piscando
+    "editor.cursorBlinking": "solid",
+  
+    // animacao de mover o cursor
+    "editor.cursorSmoothCaretAnimation": "on",
+  
+    // erros na barra de pesquisa
+    "editor.scrollbar.horizontal": "hidden",
+  
+    // desabilitar a barra de rolamento
+    "editor.scrollbar.vertical": "hidden",
+  
+    // mapa de codigo
+    "editor.minimap.enabled": true,
+  
+    // botao de fechar abas
+    "workbench.editor.tabActionCloseVisibility": false,
+  
+    // cor do arquivo, para asber se ta no git ou nao
+    "explorer.decorations.colors": false,
+  
+    // letra para saber se o arquivo ta no git ou nao
+    "git.decorations.enabled": false,
+  
+    // pastas compactadas
+    "explorer.compactFolders": false,
+  
+    // linguagens que o copilot ajuda
+    "github.copilot.enable": {
+      "*": false,
+      "plaintext": false,
+      "markdown": true,
+      "scminput": false,
+      "java": false,
+      "c": true,
+      "python": true,
+      "postgres": true,
+      "json": true
+    },
+  
+    // linhas na tela
+    "editor.rulers": [80, 100],
+  
+    // tema dos icones
+    "workbench.iconTheme": "material-icon-theme",
+  
+    // auto save
+    "files.autoSave": "afterDelay",
+  
+    // tamanho das linahs
+    "editor.lineHeight": 1.5,
+  
+    // code runner rodar em terminal
+    "code-runner.runInTerminal": true,
+  
+    // git ai
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+  
+    // codar em java
+    "redhat.telemetry.enabled": true,
+  
+    // status bar
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "github.copilot.editor.enableAutoCompletions": true
+  }

@@ -26,4 +26,4 @@ diria que esses que eu passei sao os mais importantes, porem eu gosto muito de u
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 para varias coisa automaticas, que eu configurei no meu JSON
-[Settings.json]()
+[Settings.json](https://github.com/giusfds/AEDS-II/blob/main/myConfigs/settings.json)
