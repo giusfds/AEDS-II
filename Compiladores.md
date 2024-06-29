@@ -5,7 +5,7 @@
 ### GCC
 - [gcc](https://winlibs.com/)
 
-Para completar a instalação, no Windows,
+    Para completar a instalação, no Windows,
     supondo que a pasta do compilador seja C:\MinGW:
     Menu Iniciar
     |_ Configurações
