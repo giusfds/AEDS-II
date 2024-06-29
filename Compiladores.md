@@ -3,7 +3,7 @@
 ## Precisa do compilador de java ou de C?
 
 ### GCC
-- [gcc] (https://winlibs.com/)
+- (gcc) [https://winlibs.com/]
 
 Para completar a instalação, no Windows,
     supondo que a pasta do compilador seja C:\MinGW:
@@ -30,8 +30,8 @@ Para completar a instalação, no Windows,
                       |_ OK
 
 ### JDK
-[Windows] : (https://www.youtube.com/watch?v=QekeJBShCy4)
+[Windows](https://www.youtube.com/watch?v=QekeJBShCy4)
 
-[Linux] : (https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
+[Linux](https://www.youtube.com/watch?v=Sv0EwYPLw8w&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk&index=3)
 
-[Mac] : (https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
+[Mac](https://github.com/devsuperior/sds2/tree/master/instalacao/mac#java-11-on-macos)
