@@ -1,0 +1,1 @@
+infelizmente, nao tenho a pagina 3 da prova 3 teorica, mas era a construcao de arvore, AVL, 2,3,4 e Bicolor (alvinegra)

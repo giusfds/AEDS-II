@@ -1,0 +1,222 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#include <time.h>
+
+#define MAX_LENGTH 200
+
+typedef struct {
+    char id[MAX_LENGTH];
+    char nome[MAX_LENGTH];
+    char alternate_names[MAX_LENGTH];
+    char house[MAX_LENGTH];
+    char ancestry[MAX_LENGTH];
+    char species[MAX_LENGTH];
+    char patronus[MAX_LENGTH];
+    bool hogwartsStaff;
+    bool hogwartsStudent;
+    char actorName[MAX_LENGTH];
+    bool alive;
+    char dateOfBirth[10];
+    int yearOfBirth;
+    char eyeColour[MAX_LENGTH];
+    char gender[MAX_LENGTH];
+    char hairColour[MAX_LENGTH];
+    bool wizard;
+} Personagem;
+
+void imprimir(Personagem *personagem) {
+    int len = strlen(personagem->alternate_names);
+    for (int i = 0; i < len; i++) {
+        if (personagem->alternate_names[i] == '[') {
+            personagem->alternate_names[i] = '{';
+        } else if (personagem->alternate_names[i] == ']') {
+            personagem->alternate_names[i] = '}';
+        } else if (personagem->alternate_names[i] == '\'') {
+            memmove(&personagem->alternate_names[i], &personagem->alternate_names[i + 1], strlen(personagem->alternate_names) - i);
+            i--;
+        }
+    }
+
+
+
+    printf("[%s ## %s ## %s ## %s ## %s ## %s ## %s ## %s ## %s ## %s ## %s ## %s ## %d ## %s ## %s ## %s ## %s]\n",
+           strcmp(personagem->id, "-1") != 0 ? personagem->id : "", 
+           strcmp(personagem->nome, "-1") != 0 ? personagem->nome : "", 
+           strcmp(personagem->alternate_names, "-1") != 0 ? personagem->alternate_names : "", 
+           strcmp(personagem->house, "-1") != 0 ? personagem->house : "",
+           strcmp(personagem->ancestry, "-1") != 0 ? personagem->ancestry : "", 
+           strcmp(personagem->species, "-1") != 0 ? personagem->species : "", 
+           strcmp(personagem->patronus, "-1") != 0 ? personagem->patronus : "",
+           personagem->hogwartsStaff ? "true" : "false", 
+           personagem->hogwartsStudent ? "true" : "false",
+           strcmp(personagem->actorName, "-1") != 0 ? personagem->actorName : "", 
+           personagem->alive ? "true" : "false", 
+           strcmp(personagem->dateOfBirth, "-1") != 0 ? personagem->dateOfBirth : "",
+           personagem->yearOfBirth, 
+           strcmp(personagem->eyeColour, "-1") != 0 ? personagem->eyeColour : "", 
+           strcmp(personagem->gender, "-1") != 0 ? personagem->gender : "", 
+           strcmp(personagem->hairColour, "-1") != 0 ? personagem->hairColour : "",
+           personagem->wizard ? "true" : "false");
+}
+
+void replaceDoubleViruglas(char *str) {
+    int tamanho = strlen(str);
+    char tmp[3 * tamanho];
+    int j = 0; 
+
+    for (int i = 0; i < tamanho; i++) {
+        if (str[i] == ';' && str[i+1] == ';') {
+            tmp[j++] = ';'; 
+            tmp[j++] = '-';
+            tmp[j++] = '1';
+            tmp[j++] = ';';
+            
+            i++;
+        } else {
+            tmp[j++] = str[i];
+        }
+        
+    }
+    tmp[j] = '\0';
+    strcpy(str, tmp);
+}
+
+bool verificarString(const char *str) {
+    // Converte a string para letras maiúsculas para ignorar diferenças de caixa
+    char upperStr[strlen(str) + 1];
+    for (int i = 0; i < strlen(str); i++) {
+        upperStr[i] = toupper(str[i]);
+    }
+    upperStr[strlen(str)] = '\0';
+
+    // Verifica se a string é "VERDADEIRO" ou "FALSO"
+    if (strcmp(upperStr, "VERDADEIRO") == 0) {
+        return true;
+    } else if (strcmp(upperStr, "FALSO") == 0) {
+        return false;
+    } else {
+        // Se a string não for "VERDADEIRO" nem "FALSO", retorne false por padrão
+        return false;
+    }
+}
+
+void ler(Personagem *personagem, char *str) {
+    replaceDoubleViruglas(str);
+    char *token = strtok(str, ";");
+    int fieldIndex = 0;
+
+    while (token != NULL) {
+        switch (fieldIndex) {
+            case 0: strcpy(personagem->id, token); break;
+            case 1: strcpy(personagem->nome, token); break;
+            case 2: strcpy(personagem->alternate_names, token); break;
+            case 3: strcpy(personagem->house, token); break;
+            case 4: strcpy(personagem->ancestry, token); break;
+            case 5: strcpy(personagem->species, token); break;
+            case 6: strcpy(personagem->patronus, token); break;
+            case 7: personagem->hogwartsStaff = verificarString(token); break;
+            case 8: personagem->hogwartsStudent = verificarString(token); break;
+            case 9: strcpy(personagem->actorName, token); break;
+            case 10: personagem->alive = verificarString(token); break;
+            case 12: strcpy(personagem->dateOfBirth, token); break;
+            case 13: personagem->yearOfBirth = atoi(token); break;
+            case 14: strcpy(personagem->eyeColour, token); break;
+            case 15: strcpy(personagem->gender, token); break;
+            case 16: strcpy(personagem->hairColour, token); break;
+            case 17: personagem->wizard = verificarString(token); break;
+            default: break;
+        }
+        fieldIndex++;
+        token = strtok(NULL, ";");
+    }
+}
+
+int pesquisaBinaria(Personagem *personagens, char *nome, int esq, int dir){
+    if(esq > dir){
+        return -1;
+    }else{
+        int meio = (esq + dir) / 2;
+        if(strcmp(nome, personagens[meio].nome) == 0){
+            return 1;
+        }
+        else if (strcmp(nome, personagens[meio].nome) > 0)
+        {
+            return pesquisaBinaria(personagens, nome, meio + 1, dir);
+        }
+        else
+        {
+            return pesquisaBinaria(personagens, nome, esq, meio - 1);
+        }
+    }
+}
+
+void ordenar(Personagem *personagens, int n){
+    for (int i = 0; i < n; i++){
+        int menor = i;
+        for (int j = i + 1; j < n; j++){
+            if(strcmp(personagens[j].nome, personagens[menor].nome) < 0){
+                menor = j;
+            }
+        }
+        Personagem temp = personagens[i];
+        personagens[i] = personagens[menor];
+        personagens[menor] = temp;
+    }
+}
+
+int main() {
+    Personagem characters[406];
+    Personagem arrayPersonagem[30];
+    int tamArray = 0;
+    char n[50];
+
+    FILE *arq = fopen("/tmp/characters.csv", "r");
+    if (arq == NULL) {
+        printf("File not found\n");
+        return 0;
+    }
+
+    char str[300];
+    fgets(str, sizeof(str), arq);
+    int i = 0;
+    while (fgets(str, sizeof(str), arq)) {
+        ler(&characters[i], str);
+        i++;
+    }
+
+    fclose(arq);
+    scanf("%s", n);
+    while(strcmp(n, "FIM") != 0){
+        for (int i = 0; i < 406; i++) {
+            if (strcmp(characters[i].id, n) == 0) {
+                arrayPersonagem[tamArray] = characters[i];
+                tamArray++;
+                break;
+            }
+        }
+        scanf("%s", n);
+    }
+
+    ordenar(arrayPersonagem, tamArray);
+
+    FILE *tempArq = fopen("808721_binaria.txt", "w");
+    int cmp = 0;
+    clock_t inicio, fim;
+    double total;
+
+    scanf(" %[^\r\n]s", n);
+    while(strcmp(n, "FIM") != 0){
+        inicio = clock();
+        printf("%s\n", pesquisaBinaria(arrayPersonagem, n, 0, tamArray-1) == 1 ? "SIM" : "NAO");
+        fim = clock();
+        scanf(" %[^\r\n]s", n);
+    }
+
+    total = ((double)(fim - inicio) / CLOCKS_PER_SEC);
+    fprintf(tempArq, "808721\t%fs.\t%d", total, cmp);
+    fclose(tempArq);
+
+    return 0;
+}

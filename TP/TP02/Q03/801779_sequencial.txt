@@ -1,0 +1,1 @@
+Matrícula: 801779	Tempo de execução: 0,001172s	Número de comparações: 443
