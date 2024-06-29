@@ -1,6 +1,8 @@
 # Repositorio destinado a armazenar os códigos desenvolvidos durante a materia AEDS-II @ PUC Minas
 
-Ola  a todos que vao fazer aeds2 semestre que vem, ou que se interessaram por esse zip. Aqui estao algumas dicas que eu gostaria de ter recebido antes de fazer a disciplina.
+## EU FIZ AEDS2 COM O MAX
+
+Ola  a todos que vao fazer aeds2 semestre que vem, ou que se interessaram por esse repositorio. Aqui estao algumas dicas que eu gostaria de ter recebido antes de fazer a disciplina.
 
 # IMPORTANTE RESSALTAR QUE ESTUDANTE DE AEDS2 NAO TEM VIDA SOCIAL!
 
