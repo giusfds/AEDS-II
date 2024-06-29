@@ -3,7 +3,7 @@
 ## Precisa do compilador de java ou de C?
 
 ### GCC
-- (gcc)[https://winlibs.com/]
+- [gcc](https://winlibs.com/)
 
 Para completar a instalação, no Windows,
     supondo que a pasta do compilador seja C:\MinGW:
