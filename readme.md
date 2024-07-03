@@ -61,5 +61,7 @@ se voce foi mal nas provas, nao se preocupe, eles fazem uma conta maluca para ca
 
 ent, nao tenha medo de se foder nas provas, mas acha um jeito de compensar, e nao vacile nos trabalhos, pq eles sao 20 pontos de graca.
 
+Se quiser saber outra opiniao de aeds2, recomendo o [Repositorio do vinishow](https://github.com/vinimiraa/Estudos)
+
 Espero de coracao que isso seja util para alguem! Boa sorte na materia, e que a forca esteja com voce!
 Giuseppe Cordeiro 2024/1
