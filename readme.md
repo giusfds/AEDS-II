@@ -1,67 +1,85 @@
-# Repositorio destinado a armazenar os códigos desenvolvidos durante a materia AEDS-II @ PUC Minas
+# Repositório de Códigos - AEDS-II @ PUC Minas
 
-## EU FIZ AEDS2 COM O MAX
+## Introdução
 
-Ola  a todos que vao fazer aeds2 semestre que vem, ou que se interessaram por esse repositorio. Aqui estao algumas dicas que eu gostaria de ter recebido antes de fazer a disciplina.
+Olá a todos que vão cursar AEDS-II no próximo semestre ou que se interessaram por este repositório! Aqui estão algumas dicas que eu gostaria de ter recebido antes de fazer a disciplina.
 
-# IMPORTANTE RESSALTAR QUE ESTUDANTE DE AEDS2 NAO TEM VIDA SOCIAL!
+**Importante:** Estudante de AEDS-II não tem vida social!
 
-**ESTUDE JAVA NAS FERIAS**: aeds2 nao vai te passar os conseitos basicos de java, so vao falar que voce tem que aprender e fds, recomendo estudar nas ferias... compra um curso de java de preferencia, eu tenho um para recomendar:
-  - **Curso em video**: esse curso e muito bom, e o professor e bem didatico, recomendo muito ele. 
-  [Udemy Neilo Alves](https://www.udemy.com/course/java-curso-completo/?couponCode=LETSLEARNNOWPP)
+## Dicas para AEDS-II
 
-## Dicas
+1. **Estude Java nas Férias**
+   - AEDS-II não vai te ensinar os conceitos básicos de Java. Portanto, é essencial estudar Java antes da disciplina.
+   - Recomendo o curso: [Udemy Neilo Alves](https://www.udemy.com/course/java-curso-completo/?couponCode=LETSLEARNNOWPP)
 
-1. **Estude a teoria**: A teoria é muito importante, e é o que vai te fazer passar na prova. A maioria das questões são sobre conceitos, e não sobre implementação. Então, estude bem a teoria, e faça muitos exercícios.
+2. **Estude a Teoria**
+   - A teoria é crucial para as provas, que geralmente focam mais em conceitos do que em implementação.
+   - Estude bem a teoria e pratique muitos exercícios.
 
-2. **Faça os exercícios**: Os exercícios são muito importantes, e vão te ajudar a fixar a teoria. Faça todos os exercícios que você puder, e se tiver dúvidas, pergunte ao professor, nem o Max nem o Felipe vao te deixar na mao, eles vao te ajudar a entender o que voce nao entendeu.
+3. **Faça os Exercícios**
+   - Os exercícios são fundamentais para fixar a teoria. Faça todos que puder e tire suas dúvidas com os professores.
+   - O Max e o Felipe estarão disponíveis para ajudar.
 
-3. **Não deixe para a última hora**: A matéria é extensa, e é muito difícil de aprender tudo de uma vez, principalmente na prova 2/3, elas sim sao as mais complicadas. Então, não deixe para estudar na véspera da prova, porque você não vai conseguir aprender tudo.
+4. **Não Deixe para a Última Hora**
+   - A matéria é extensa e complexa. Não estude apenas na véspera das provas.
+   - Divida o estudo ao longo do semestre.
 
-4. **Faça os trabalhos (TP)**: Os trabalhos são muito importantes, e vão te ajudar a fixar a teoria e a aprender a implementar os algoritmos. Então, faça todos os trabalhos, e se tiver dúvidas, pergunte ao professor.
+5. **Faça os Trabalhos (TP)**
+   - Os trabalhos são importantes e garantem 20 pontos no final do semestre.
+   - Faça todos com capricho, pois eles ajudam na prova prática.
 
-5. **AEDS2**: como eu sempre falo, aeds2 tem 4 pilares, que eles nao sao ligados 100% a materia. 
-  - **AULAS TEORICAS**: as aulas teoricas vao te dar uma base para voce fazer a prova tanto teorica quanto os quizes. Porem, nao use so ela para estudar, ja que 90% da materia sao codigos disponibilizados no github.
-  - **AULAS PRATICAS**: as aulas praticas, essas sim vai ser onde voce vai aplicar seus conhecimentos ganhados na aula teorica, ou melhos, vc vai aprender por la. O *PEDRO* e o melhor professor que voce pode pegar, ja que ele da aula de compiladores e outras materias, assim ele pode te ajudar a entender melhor como que funciona o codigo. O ruim e que, a aula dele e' as 7:00 da manha, de uma quinta feira, entao, se prepare para acordar cedo.
-  - **TRABALHOS**: os trabalhos sao uma parte importante, ja que os mesmos vao te garantir 20 pontos no final do semestre. FOQUE em fazer eles bem, ja que os mesmo dao uma base para a prova pratica.
-  - **PROVAS**: bom, melhor eu dividir em 2 topicos agr...
-    - **Prova pratica**: ela segue bem a materia dado em sala, porem se voce e o cara que quer ir bem nelas, ja que sao mais "faceis" faca a atividade dos slides... TODAS AS ATIVIDADES
-    - **Prova teorica**: a prova teorica, e um misterio do que pode vir, pode ser uma questao de aeds1, como pode ser a DOIDONA... mais para frente voce vai saber o que significa a doidona, e nao e legal, ja adianto... porem e bem de boa dps que voce entende.
-  - **NAO VACILE EM NENHUM DESSES PONTOS, SE NAO VC TOMA PAU**
+6. **AEDS-II em 4 Pilares**
+   - **Aulas Teóricas**: Fundamentais para as provas teóricas e quizzes. Não use apenas isso para estudar; 90% do conteúdo está no GitHub.
+   - **Aulas Práticas**: Aplicam o conhecimento teórico. O Pedro é um excelente professor. Prepare-se para acordar cedo para as aulas.
+   - **Trabalhos**: Garantem 20 pontos no final do semestre. Foque em fazê-los bem.
+   - **Provas**:
+     - **Prova Prática**: Segue a matéria dada em sala. Complete todas as atividades dos slides.
+     - **Prova Teórica**: Pode incluir questões de AEDS-I ou tópicos mais complexos ("DOIDONA"). Prepare-se bem.
 
-6. **Não desista**: A matéria é difícil, e é normal ter dificuldades. Mas não desista, e continue estudando e fazendo os exercícios, que você vai conseguir passar.
+7. **Não Desista**
+   - A matéria é difícil, e é normal ter dificuldades. Continue estudando e fazendo os exercícios.
 
-7. **Seja organizado**: A matéria é extensa, e é muito fácil se perder. Então, seja organizado, ou faca igual eu, crie uma pasta no meio do semestre para postar o que o MAX fala na aula... Tudo bem que eu abandonei a ideia, ja que eu comeicei a fazer no caderno, pq precisava de nota, e as provas sao no papel.
-[Link do pasta](https://github.com/giusfds/AEDS-II/tree/main/Aulas)
+8. **Seja Organizado**
+   - Mantenha-se organizado. Crie uma pasta para anotar o que foi discutido nas aulas.
+   - [Link da Pasta](https://github.com/giusfds/AEDS-II/tree/main/Aulas)
 
-8. **Não tenha medo de perguntar**: Se você tiver dúvidas, pergunte ao professor. Não tenha medo de perguntar, porque é melhor perguntar do que ficar com dúvidas. A gnt brinca e tals, mas o max e um pai, o felipe tbm, porem as veze eles vao pegar MUITO no seu pe pela pergunta, porem eles sempre exclarecem ela. Mostre que voce quer passar.
+9. **Não Tenha Medo de Perguntar**
+   - Se tiver dúvidas, pergunte aos professores. É melhor esclarecer as dúvidas do que ficar com elas.
 
-9. **Não copie**: A matéria é difícil, e é normal ter dificuldades. Mas não desista, e continue estudando e fazendo os exercícios, que você vai conseguir passar.
+10. **Não Copie**
+    - A matéria é difícil, e copiar não é a solução. Continue estudando e fazendo os exercícios.
 
-10. **APRENDA A USAR LINUX**: sim, aprenda... pode ser WSL se preferir, poem java vai dar muito erro bobo em windows, e o linux e bem mais facil de usar, e o max ama linux, ele vai te apoiar se vc mostrar para ele um codigo e ele ver que vc esta usando linux.
+11. **Aprenda a Usar Linux**
+    - Use Linux ou WSL para evitar problemas com erros bobo em Java no Windows. O Max apoia o uso de Linux.
 
-recomendo ler todos os readme.md dos repositorios, deixei varias dicas por la tbm.
+## Projeto para Compilar o Código do Verde
+
+Durante a disciplina, desenvolvi um projeto para facilitar a compilação do código do Verde, um recurso útil para ajudar quem também está lidando com esse código. Esse projeto simplifica o processo de compilação e pode ser uma mão na roda durante os estudos.
+
+Você pode conferir o projeto completo no link abaixo:
+- [Link para o Projeto](https://github.com/giusfds/AEDS-II/blob/main/Ajuda/compilers.mak)
 
 ## Notas
 
-se voce foi mal nas provas, nao se preocupe, eles fazem uma conta maluca para calcular seu desempenho. Quando eu fiz aeds, a conta era tao maluca que eu nem sei falar como e. Porem, para se basear em mim, aqui estao algumas das minhas notas
+Se você foi mal nas provas, não se preocupe. Eles fazem uma conta complexa para calcular o desempenho. Aqui estão algumas das minhas notas:
+
 | **Item**                | **Nota** |
 |-------------------------|----------|
-| **Prova 1 - Teorica**   | 4        |
-| **Prova 1 - Pratica**   | 2        |
-| **Prova 2 - Teorica**   | 5        |
-| **Prova 2 - Pratica**   | 8        |
-| **Prova 3 - Teorica**   | 2.2      |
-| **Prova 3 - Pratica**   | 10       |
+| **Prova 1 - Teórica**   | 4        |
+| **Prova 1 - Prática**   | 2        |
+| **Prova 2 - Teórica**   | 5        |
+| **Prova 2 - Prática**   | 8        |
+| **Prova 3 - Teórica**   | 2.2      |
+| **Prova 3 - Prática**   | 10       |
 | **Trabalhos**           | 20       |
 | **Desempenho**          | 11       |
-| **ADA**                 | 2.9      |
-| **Nota final**          | 65       |
+| **ADA**                 | 2.8      |
+| **Nota Final**          | 65       |
 
+Não tenha medo de se sair mal nas provas, mas encontre uma forma de compensar. Não vacile nos trabalhos, pois eles são 20 pontos de graça.
 
-ent, nao tenha medo de se foder nas provas, mas acha um jeito de compensar, e nao vacile nos trabalhos, pq eles sao 20 pontos de graca.
+Para mais opiniões sobre AEDS-II, recomendo o [Repositório do Vinishow](https://github.com/vinimiraa/Estudos).
 
-Se quiser saber outra opiniao de aeds2, recomendo o [Repositorio do vinishow](https://github.com/vinimiraa/Estudos)
+Espero que essas dicas sejam úteis! Boa sorte na disciplina, e que a força esteja com você!
 
-Espero de coracao que isso seja util para alguem! Boa sorte na materia, e que a forca esteja com voce!
 Giuseppe Cordeiro 2024/1
